@@ -18,3 +18,12 @@ Après modification, on a bien 3.2G max qu'on peut occuper.
 Puis on configure son réseau avec vim, puis on ping le 192.168.88.53:
 
 ![plot](./connection_soc.png)
+
+### 1.4 Découverte de la cible
+
+On réalise un programme hello world, puis on le test sur la carte:
+
+
+Ensuite on test d'allumer/eteindre la led2:
+
+On réalise un programme chenillard en mode download, puis on le test sur la carte:
