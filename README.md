@@ -5,7 +5,7 @@
 
 On se connecte au SoC:
 
-![plot](images/connection_soc.png)
+![plot](./images/connection_soc.png)
 
 On a une taille de 3.0G qui est occupé:
 
