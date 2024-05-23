@@ -17,6 +17,8 @@ Après modification, on a bien 3.2G max qu'on peut occuper.
 
 Puis on configure son réseau avec vim, puis on ping le 192.168.88.53:
 
+![plot](./images/Ping.png)
+
 ![plot](./images/connection_soc.png)
 
 ### 1.4 Découverte de la cible
