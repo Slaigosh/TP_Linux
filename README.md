@@ -19,13 +19,27 @@ Puis on configure son réseau avec vim, puis on ping le 192.168.88.53:
 
 ![plot](./images/Ping.png)
 
-![plot](./images/connection_soc.png)
-
 ### 1.4 Découverte de la cible
 
 On réalise un programme hello world, puis on le test sur la carte:
 
+![plot](./images/hello.png)
 
-Ensuite on test d'allumer/eteindre la led2:
+Ensuite on test d'allumer/eteindre la led : 
+
+![plot](./images/led.png)
 
 On réalise un programme chenillard en mode download, puis on le test sur la carte:
+
+![plot](./images/chenillard.png)
+
+
+## 2 Modules kernel
+### 2.0 Reprise TP1
+
+On revérifie l'execution avec scp du chenillard. On voit bien le chenillard.
+
+### 2.1 Accès aux registres
+
+Ici on dévellope un driveur en mode utilisateur, on a pas d'interruption. Le coden'est pas portable.
+
