@@ -43,3 +43,13 @@ On revérifie l'execution avec scp du chenillard. On voit bien le chenillard.
 
 Ici on dévellope un driveur en mode utilisateur, on a pas d'interruption. Le coden'est pas portable.
 
+### 2.3 CrossCompilation de modules noyau
+
+On lance les lignes suivantes :
+export CROSS_COMPILE=<chemin_arm-linux-gnueabihf->
+export ARCH=arm
+make prepare
+make scripts
+
+Ca creer un symbole pour l'instance de terminal.
+Vu qu'il s'agit d'un préfix devant gcc, il faut un tiret pour que la commande comprenne prefix + gcc.
