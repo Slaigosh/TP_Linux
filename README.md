@@ -43,6 +43,12 @@ On revérifie l'execution avec scp du chenillard. On voit bien le chenillard.
 
 Ici on dévellope un driveur en mode utilisateur, on a pas d'interruption. Le coden'est pas portable.
 
+### 2.2 Compilation de module noyau sur la VM
+
+On va recupérer les fichiers hello.c et makefile sur moodle.
+La commande make sert à compiler, et sudo insmod à executer.
+Pour décharger le module on fait rmmod hellokernel.ko.
+
 ### 2.3 CrossCompilation de modules noyau
 
 On lance les lignes suivantes :
