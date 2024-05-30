@@ -53,3 +53,31 @@ make scripts
 
 Ca creer un symbole pour l'instance de terminal.
 Vu qu'il s'agit d'un préfix devant gcc, il faut un tiret pour que la commande comprenne prefix + gcc.
+
+## 3 Device tree
+
+![plot](./images/DeviceTree.png)
+
+Voici notre device tree apres avoir envoyer notre nouveau device tree compile et reboot la carte
+
+### 3.1 module accedant au LED via /dev
+
+probe est appele lorsqu'un module est ajoute
+
+read est appele lorsqu'une lecture est faite
+
+write est appele lorsqu'une ecriture est faite
+
+remove est appele lorsqu'un module est retire
+
+
+
+
+
+
+
+
+
+
+
+
